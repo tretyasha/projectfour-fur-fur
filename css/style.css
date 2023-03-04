@@ -1,0 +1,54 @@
+@import url(reset.css);
+
+.header {
+    background-color: #FE1A19;
+    padding: 20px;
+    color: #FFFFFF;
+    font-weight:600;
+}
+
+.header-title {}
+
+.columns {
+    padding: 52px 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    border: 5px solid #E5E000;/*5 пикселей толщина solid сплошной цвет и потом задаем цвет*/
+    border-radius: 30px;/*округление рамок*/
+    padding: 33px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.column-title{
+width: 207px;
+height: 23px;
+left: 1003px;
+top: 145px;
+color: #000000;
+font-family: Helvetica;
+font-size: 20px;
+font-weight:600;
+line-height: 23px;
+display: flex;
+align-items: center;
+}
+
+.column:first-child {
+    margin-left: 0;
+}
+
+
+.footer{
+position: absolute;
+left: 0px;
+right: 0px;
+top: 964px;
+padding: 20px;
+font-weight:600;
+background-color: #FE1A19;
+color: #FFFFFF
+}
+
