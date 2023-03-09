@@ -42,10 +42,10 @@ align-items: center;
 
 
 .footer{
-position: absolute;
+/*position: absolute;
 left: 0px;
 right: 0px;
-top: 964px;
+top: 964px;*/
 padding: 20px;
 font-weight:600;
 background-color: #FE1A19;
